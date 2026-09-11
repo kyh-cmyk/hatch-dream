@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+*.swp
+*~
+.idea/
+.vscode/
+
+# local secrets / env — never commit
+.env
+*.local
+
+# build artifacts (none today, but future-proof)
+node_modules/
+dist/
+
+# the cloudflared binary used only for local HTTPS tunnel testing; not part of the project
+cloudflared.exe
+cloudflared
